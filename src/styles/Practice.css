@@ -1,0 +1,431 @@
+@media screen and (max-width:1024px) and (min-width:668px) {
+    
+    body{
+        width: 100%;
+        margin: 0;
+        overflow-x: hidden;
+        background-color: #333;
+    }
+    
+    .bar{
+        width:15px;
+        height: 2px;
+        background-color: black;
+        display: flex;
+        
+    }
+
+    .nav-bar{
+        background-color: rgb(122, 118, 118);
+        color: white;
+        margin-right: -15%;
+    }
+    
+    .nav-header{
+        width: 100%;
+        height: 70px;
+        border: 1px solid black;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .nav-header h1{
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .nav-bar-links{
+        display: none;
+    }
+    
+    .hamburger{
+        display: none;
+    }
+    
+    .search-bar h1{
+        text-align: center;
+        color: whitesmoke;
+        text-shadow: 0px 0px 2px 2px white;
+    }
+
+    .search {
+        width: 20%;
+        height: 50px;
+        margin-left: 40%;
+        margin-bottom: 20px;
+        border: 1px solid white;
+        padding: 10px;
+        background-color: aliceblue;
+        box-shadow: 0px 0px 3px 3px grey;
+        font-size: 20px;
+    }
+    
+    .divs{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 20%;
+        /* margin-top: 30px; */
+        gap: 20px;
+    }
+
+    .divs h2{
+        text-align: center;
+        font-size: 30px;
+        margin-left: -300px;
+        color: white;
+        box-shadow: 0px 0px 2px 2px wheat;
+    }
+
+    .row{
+        width: 90%;
+        display: flex;
+        gap: 30px;
+        align-items: stretch;
+    }
+
+    .theatre{
+        height: max-content;
+        border: 1px solid rgb(48, 45, 45);
+        background: linear-gradient(to bottom, white 60% , rgb(101, 92, 92) 40% );
+        padding: 5px;
+        color: rgb(230, 215, 215);
+    }
+    
+    .theatre img{
+        width: 180px;
+        height: 100px;
+        margin-left: 6px;
+        margin-top: 5px;
+    }
+    
+
+
+    .theatre-container{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-around;
+        background-color: black;
+        color: wheat;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .theatre-list{
+        width: 30%;
+        height: 300px;
+        height: max-content;
+        box-sizing: border-box;
+        border: 1px solid yellow;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        background-color: #333;
+        margin-top: 20px;
+        box-shadow: 0px 0px 3px 3px white;
+    }
+
+
+    .theatre-list img{
+        width: 80%;
+        height: 200px;
+        display: flex;
+        margin-left: 7%;
+        margin-top: 0px;
+    }
+
+    .theatre-list h1{
+        margin-top: 0px;
+        height: 20%;
+        border: 1px solid black;
+    }
+
+    .theatre-list button{
+        height: 50px;
+        background-color: white;
+        margin-bottom: 0;
+        margin-top: 10px;
+        font-size: 20px;
+    }
+
+    .theatre-list button:hover{
+        cursor: pointer;
+        background-color: black;
+        color: white;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px) and (min-width:320px) {
+
+    body{
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .hamburger{
+        cursor: pointer;
+        height: 20px;
+        display: flex;
+        width: 30px;
+        justify-content: center;
+        margin: 20px 20px;
+        border: 1px solid black;
+    }
+
+    .nav-bar{
+        height: 80px;
+        width: 100%;
+        background-color: rgb(122, 118, 118);
+        color: white;
+    }
+
+    .nav-header{
+        display: flex;
+        width: 120%;
+        justify-content: space-between;
+        background-color: rgb(122, 118, 118);
+    }
+    
+    .nav-header h1{
+        font-size: 19px;
+        width: 27%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        margin-left: 105px;
+    }
+
+    .nav-header h3{
+        font-size: 15px;
+        width: 27%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .nav-bar-links{
+        flex-direction: column;
+        top: 0;
+        margin: 0;
+        left: 0;
+        position: fixed;
+        width: 0;
+        height: 100%;
+        visibility: hidden;
+        text-align: left;
+        z-index: 999;
+    }
+    
+    .nav-bar-links.open{
+        display: flex;
+        visibility: visible;
+        top: 0;
+        z-index: 1;
+        width: 20%;
+        height: 100%;
+        align-items: center;
+        text-align: left;
+        background-color: rgb(245, 228, 228);
+        color: black;
+    }
+    
+    .closehamburger{
+        cursor: pointer;
+        margin-left: -100px;
+        font-size: 20px;
+        border: 1px solid black;
+        padding: 8px;
+    }
+
+    .closehamburger:hover{
+        background-color: black;
+        color: white;
+    }
+
+    .search-bar h1{
+        text-align: center;
+        margin-left: 20%;
+    }
+
+    .search{
+        display: flex;
+        margin-left: 50%;
+        padding: 13px;
+    }
+
+    .divs{
+        display: flex;
+        flex-direction: column;
+        margin-left: 20%;
+        gap: 20px;
+    }
+
+    .divs h2{
+        text-align: center;
+        margin-top: 40px;
+        font-size: 25px;
+    }
+
+    .row{
+        width: 90%;
+        display: flex;
+        gap: 30px;
+
+    }
+
+    .theatre{
+        height: max-content;
+        border: 1px solid rgb(48, 45, 45);
+        background: linear-gradient(to bottom, white 50% , rgb(101, 92, 92) 50% );
+        padding: 5px;
+        color: rgb(230, 215, 215);
+    }
+
+
+    .theatre img{
+        width: 120px;
+        height: 100px;
+    }
+
+
+    .theatre-container{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-left: 10%;
+        margin-top: 20px;
+    }
+
+    .theatre-list{
+        width: 40%;
+        /* height: 300px; */
+        border: 1px solid white;
+        box-shadow: 0px 0px 3px 3px black;
+        display: flex;
+        flex-direction: column;
+        background-color: #5f5a5a;
+    }
+
+    .theatre-list img{
+        width: 80%;
+        height: 180px;
+        display: flex;
+        margin-left: 7%;
+        margin-top: 0px;
+        
+    }
+
+    .theatre-list h1{
+        margin-top: 0px;
+        margin-left: 0;
+        height: 20%;
+        border: 1px solid black;
+        text-align: center;
+        display: flex;
+    }
+
+    .theatre-list button{
+        height: 50px;
+        background-color: white;
+        margin-bottom: 0;
+        margin-top: 10px;
+        font-size: 20px;
+    }
+
+    .theatre-list button:hover{
+        cursor: pointer;
+        background-color: black;
+        color: white;
+    }
+}
+
+
+@media screen and (max-width:320px) {
+
+    body{
+        width: 100%;
+        overflow-x: hidden;
+        background-color: black;
+    }
+    .nav-bar{
+        /* width: 100%; */
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .hamburger{
+        width: 30px;
+        height: 20px;
+    }
+
+    .nav-header h1{
+        font-size: 10px;
+        border: 1px solid white;
+        box-sizing: border-box;
+        width: 40%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-header h3{
+        margin-right: -25%;
+    }
+
+    .search-bar{
+        background-color: black;
+        color: white;
+        
+    }
+
+    .search-bar h1 {
+        font-size: 20px;
+        margin-right: -20%;
+    }
+
+    .search{
+        box-shadow: 0px 0px 2px 2px white;
+        margin-right: -20%;
+    }
+
+    .row{
+        margin-left: -10%;
+    }
+
+
+    .theatre-list{
+        width: 40%;
+    }
+    .theatre-list h1{
+        text-align: center;
+        display: flex;
+    }
+
+    .theatre-list img{
+        width: 110px;
+        height: 80px;
+    }
+
+    .divs{
+        display: flex;
+        align-items: stretch;
+    }
+
+    .theatre{
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+}
